@@ -278,6 +278,9 @@ footer {
     #hamb {
         display: block;
     }
+    .p-content {
+        margin-bottom: 10vh;
+    }
     .cards {
         flex-direction: column;
         gap: 2vh;
