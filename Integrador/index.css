@@ -142,11 +142,12 @@ header {
 
 .process {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-color: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-direction: column;
 }
 
 .cards {
@@ -157,9 +158,9 @@ header {
 }
 
 .card {
-    width: 25vw;
+    width: 28vw;
     min-width: 20vw;
-    height: 40vh;
+    height: 50vh;
     background-color: white;
     box-shadow: 0px 2px 10px 2px rgba(128, 128, 128, 0.3);
     text-align: left;
@@ -174,7 +175,7 @@ header {
 
 .card-title {
     color: dodgerblue;
-    font-family: sans-serif;
+    font-family: "fira sans", sans-serif;
     font-weight: bolder;
     font-size: 1.5rem;
     text-decoration: underline;
@@ -182,9 +183,54 @@ header {
 
 .card-text {
     color: #1a1a1a;
-    font-family: sans-serif;
+    font-family: "fira sans", sans-serif;
     font-weight: bold;
     font-size: 1.2rem;
+}
+/*===========================================================================CONTATO*/
+.contato {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-whatsapp {
+    padding: 10px 40px;
+    font-family: "bebas neue", sans-serif;
+    font-size: xx-large;
+    text-decoration: none;
+    color: forestgreen;
+    border: 4px solid forestgreen;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: forestgreen;
+        color: white;
+        box-shadow: 0px 2px 4px 2px rgba(128, 128, 128, 0.3);
+    }
+}
+
+.btn-email {
+    padding: 10px 40px;
+    font-family: "bebas neue", sans-serif;
+    font-size: xx-large;
+    text-decoration: none;
+    color: dodgerblue;
+    border: 4px solid dodgerblue;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: dodgerblue;
+        color: white;
+        box-shadow: 0px 2px 4px 2px rgba(128, 128, 128, 0.3);
+    }
+}
+
+.text-contato {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: #1a1a1a;
 }
 
 /*===========================================================================INFO*/
@@ -288,23 +334,27 @@ footer {
     .d-text {
         font-size: 1.2rem;
     }
+    .process {
+        height: 180vh;
+    }
     .cards {
         flex-direction: column;
         gap: 2vh;
     }
-    .process {
-        height: auto;
-        padding: 5%;
-    }
     .card {
         width: 80vw;
         height: 40vh;
+        padding: 5%;
     }
     .card-title {
         font-size: 1.2rem;
     }
     .card-text {
         font-size: 1rem;
+    }
+    .contato {
+        flex-direction: column;
+        gap: 2vh;
     }
     .info-content {
         width: 90%;
