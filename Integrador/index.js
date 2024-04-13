@@ -1,3 +1,4 @@
+//=======================================================MENU HAMBURGUER
 const hamButton = document.getElementById('hamb');
 const menu = document.querySelector('.menu');
 const hamburg = document.querySelector('.h-img');
@@ -9,3 +10,11 @@ hamButton.addEventListener('click', function() {
     hamburg.classList.toggle('hiden');
     x.classList.toggle('hiden');
 });
+
+//=======================================================
+
+//=======================================================
+
+//=======================================================
+
+//=======================================================
