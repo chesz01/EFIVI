@@ -329,10 +329,10 @@ footer {
         margin-bottom: 10vh;
     }
     .t-text {
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
     .d-text {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     .process {
         height: 180vh;
@@ -347,10 +347,10 @@ footer {
         padding: 5%;
     }
     .card-title {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     .card-text {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .contato {
         flex-direction: column;
