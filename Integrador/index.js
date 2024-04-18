@@ -20,6 +20,12 @@ acordeonItens.forEach(item => {
     const resposta = item.querySelector('.resposta');
 
     pergunta.addEventListener('click', () => {
+        acordeonItens.forEach(novoItem => {
+            const novaResposta = novoItem.querySelector('.resposta');
+            if (novaResposta != resposta) {
+                novaResposta.classList.remove('active');
+            }
+        });
         resposta.classList.toggle('active')
     });
 });

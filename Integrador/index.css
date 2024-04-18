@@ -221,16 +221,22 @@ header {
 }
 
 .acord-item {
-    
+    width: 80%;
+    font-family: "fira sans", sans-serif;
+    font-size: 1.2em;
 }
 
 .pergunta {
     cursor: pointer;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 2vh 0;
 }
 
 .resposta {
     display: none;
     cursor: default;
+    padding: 4% 0;
+    background-color: rgba(255, 255, 0, 0.2);
 }
 
 .resposta.active {
